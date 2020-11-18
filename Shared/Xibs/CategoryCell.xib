@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCell" id="gTV-IL-0wX" customClass="CategoryCell" customModule="TheFashionist" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="aerial_2" translatesAutoresizingMaskIntoConstraints="NO" id="0fv-zq-KDz">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="161.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gbx-a8-2VV">
+                        <rect key="frame" x="8" y="169.5" width="134" height="22.5"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                        <color key="textColor" red="0.2274509804" green="0.2666666667" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="iC7-tK-AH0"/>
+            <constraints>
+                <constraint firstItem="gbx-a8-2VV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Jm2-qx-o8b"/>
+                <constraint firstAttribute="trailing" secondItem="gbx-a8-2VV" secondAttribute="trailing" constant="8" id="TH7-Mk-c1G"/>
+                <constraint firstAttribute="trailing" secondItem="0fv-zq-KDz" secondAttribute="trailing" id="UKM-lP-arn"/>
+                <constraint firstItem="0fv-zq-KDz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ek7-wT-C8o"/>
+                <constraint firstItem="gbx-a8-2VV" firstAttribute="top" secondItem="0fv-zq-KDz" secondAttribute="bottom" constant="8" id="fx5-Rs-fJ3"/>
+                <constraint firstItem="0fv-zq-KDz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vC2-TY-Cfk"/>
+                <constraint firstAttribute="bottom" secondItem="gbx-a8-2VV" secondAttribute="bottom" constant="8" id="y1k-4J-r4q"/>
+            </constraints>
+            <size key="customSize" width="93" height="145"/>
+            <connections>
+                <outlet property="categoryImg" destination="0fv-zq-KDz" id="hEe-aG-0Yc"/>
+                <outlet property="categoryLbl" destination="gbx-a8-2VV" id="RX8-ao-Tg2"/>
+            </connections>
+            <point key="canvasLocation" x="-65.599999999999994" y="89.055472263868069"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="aerial_2" width="1000" height="1778"/>
+    </resources>
+</document>

@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B163D242051F92FF84DA615 /* Pods_TheFashionist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72C75170DC52F631669AE2D /* Pods_TheFashionist.framework */; };
+		825130A0255631F90094B6E5 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8251309F255631F90094B6E5 /* UserService.swift */; };
+		82531C572550CE4900834BC1 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82531C552550CE4900834BC1 /* ForgotPasswordVC.swift */; };
+		82531C582550CE4900834BC1 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82531C552550CE4900834BC1 /* ForgotPasswordVC.swift */; };
+		82531C592550CE4900834BC1 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82531C562550CE4900834BC1 /* ForgotPasswordVC.xib */; };
+		82531C5E2550DB1200834BC1 /* Firebase+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82531C5D2550DB1200834BC1 /* Firebase+Utilities.swift */; };
+		82531C662550EBB200834BC1 /* Firebase+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82531C5D2550DB1200834BC1 /* Firebase+Utilities.swift */; };
+		82559E56255300BC00EA4401 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82559E55255300BC00EA4401 /* Extensions.swift */; };
+		82559E57255300BC00EA4401 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82559E55255300BC00EA4401 /* Extensions.swift */; };
+		82559E5D255300FE00EA4401 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82559E5C255300FE00EA4401 /* CategoryCell.xib */; };
+		82559E5E255300FE00EA4401 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82559E5C255300FE00EA4401 /* CategoryCell.xib */; };
+		82559E6925533EAD00EA4401 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82559E6825533EAD00EA4401 /* ProductsViewController.swift */; };
+		82559E6C25533ED200EA4401 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82559E6825533EAD00EA4401 /* ProductsViewController.swift */; };
+		82559E7225533F2C00EA4401 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82559E7125533F2C00EA4401 /* Product.swift */; };
+		82559E7325533F2C00EA4401 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82559E7125533F2C00EA4401 /* Product.swift */; };
+		82559E8D2553416700EA4401 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82559E8C2553416700EA4401 /* ProductCell.xib */; };
+		82559E8E2553416700EA4401 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82559E8C2553416700EA4401 /* ProductCell.xib */; };
+		8265FF5A255239BB00FBC73A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8265FF59255239BB00FBC73A /* Category.swift */; };
+		8265FF5B255239BB00FBC73A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8265FF59255239BB00FBC73A /* Category.swift */; };
+		827401EB2561F3A9009505CA /* AdminHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827401EA2561F3A9009505CA /* AdminHomeVC.swift */; };
+		827401EF2561F401009505CA /* AdminProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827401EE2561F401009505CA /* AdminProductsVC.swift */; };
+		827401F32561F431009505CA /* AddEditCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827401F22561F431009505CA /* AddEditCategoryVC.swift */; };
+		827401F72561F459009505CA /* AddEditProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827401F62561F459009505CA /* AddEditProductsVC.swift */; };
+		827401FA2561F958009505CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82924862254F3EEE00A448A1 /* Constants.swift */; };
+		827401FD2561FA84009505CA /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC9525255AEACE0064DB93 /* RoundedViews.swift */; };
+		827402002561FAB9009505CA /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8251309F255631F90094B6E5 /* UserService.swift */; };
+		8279CD412562EA73005F5826 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD6A66254CB3FA00C9B738 /* HomeVC.swift */; };
+		8279CDA52562EEC8005F5826 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8279CDA92562EED9005F5826 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		82924863254F3EEE00A448A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82924862254F3EEE00A448A1 /* Constants.swift */; };
+		82B759322564AB5800F50132 /* StripeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B759312564AB5800F50132 /* StripeApi.swift */; };
+		82B759342564AB5C00F50132 /* StripeCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B759332564AB5C00F50132 /* StripeCart.swift */; };
+		82B759532564B1DA00F50132 /* StripeCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B759332564AB5C00F50132 /* StripeCart.swift */; };
+		82B759552564B21500F50132 /* Pods_TheFashionistAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41E12222DB9C488E13875FB /* Pods_TheFashionistAdmin.framework */; };
+		82CFBA0A254EFAC100D95760 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFBA09254EFAC100D95760 /* LoginViewController.swift */; };
+		82CFBA10254EFAE200D95760 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFBA0F254EFAE200D95760 /* RegisterViewController.swift */; };
+		82D1DCC3255ADAB000F3D6E6 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1DCC2255ADAB000F3D6E6 /* ProductDetailVC.swift */; };
+		82D1DCC4255ADAB000F3D6E6 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1DCC2255ADAB000F3D6E6 /* ProductDetailVC.swift */; };
+		82D1DCCA255ADAD600F3D6E6 /* ProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D1DCC9255ADAD600F3D6E6 /* ProductDetailVC.xib */; };
+		82D1DCCB255ADAD600F3D6E6 /* ProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D1DCC9255ADAD600F3D6E6 /* ProductDetailVC.xib */; };
+		82D1DCCF255ADB1B00F3D6E6 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1DCCE255ADB1B00F3D6E6 /* CheckoutViewController.swift */; };
+		82D1DCD3255ADB6100F3D6E6 /* CartItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D1DCD2255ADB6100F3D6E6 /* CartItemCell.xib */; };
+		82D1DCD7255ADB8200F3D6E6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1DCD6255ADB8200F3D6E6 /* User.swift */; };
+		82D1DCD8255ADB8200F3D6E6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1DCD6255ADB8200F3D6E6 /* User.swift */; };
+		82D1DCEE255ADD5300F3D6E6 /* CardItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1DCED255ADD5300F3D6E6 /* CardItemCell.swift */; };
+		82DD6A63254CB3FA00C9B738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD6A62254CB3FA00C9B738 /* AppDelegate.swift */; };
+		82DD6A65254CB3FA00C9B738 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD6A64254CB3FA00C9B738 /* SceneDelegate.swift */; };
+		82DD6A67254CB3FA00C9B738 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD6A66254CB3FA00C9B738 /* HomeVC.swift */; };
+		82DD6A6A254CB3FA00C9B738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD6A68254CB3FA00C9B738 /* Main.storyboard */; };
+		82DD6A6C254CB3FC00C9B738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DD6A6B254CB3FC00C9B738 /* Assets.xcassets */; };
+		82DD6A6F254CB3FC00C9B738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD6A6D254CB3FC00C9B738 /* LaunchScreen.storyboard */; };
+		82DD6A7E254CB4C000C9B738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD6A7D254CB4C000C9B738 /* AppDelegate.swift */; };
+		82DD6A80254CB4C000C9B738 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD6A7F254CB4C000C9B738 /* SceneDelegate.swift */; };
+		82DD6A85254CB4C000C9B738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD6A83254CB4C000C9B738 /* Main.storyboard */; };
+		82DD6A8A254CB4C100C9B738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD6A88254CB4C100C9B738 /* LaunchScreen.storyboard */; };
+		82DD6A94254CB56B00C9B738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DD6A6B254CB3FC00C9B738 /* Assets.xcassets */; };
+		82DD6A98254CBC4300C9B738 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD6A97254CBC4300C9B738 /* LoginStoryboard.storyboard */; };
+		82ED54C2255AF74F002066FA /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED54C1255AF74F002066FA /* CategoryCell.swift */; };
+		82ED54C3255AF74F002066FA /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED54C1255AF74F002066FA /* CategoryCell.swift */; };
+		82FC2C0A254CE74500AAD11F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82FC2C09254CE74500AAD11F /* GoogleService-Info.plist */; };
+		82FC9528255AEACE0064DB93 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC9525255AEACE0064DB93 /* RoundedViews.swift */; };
+		82FC952C255AEACE0064DB93 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC9527255AEACE0064DB93 /* ProductCell.swift */; };
+		82FC952D255AEACE0064DB93 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC9527255AEACE0064DB93 /* ProductCell.swift */; };
+		82FC9530255AEAE60064DB93 /* CardItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1DCED255ADD5300F3D6E6 /* CardItemCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8279CDA62562EEC8005F5826 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8279CDA52562EEC8005F5826 /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8279CDAA2562EED9005F5826 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8279CDA92562EED9005F5826 /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		81F341D31C32DBB89F33B68F /* Pods-TheFashionistAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheFashionistAdmin.debug.xcconfig"; path = "Target Support Files/Pods-TheFashionistAdmin/Pods-TheFashionistAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		8251309F255631F90094B6E5 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		82531C552550CE4900834BC1 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		82531C562550CE4900834BC1 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		82531C5D2550DB1200834BC1 /* Firebase+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Utilities.swift"; sourceTree = "<group>"; };
+		82559E55255300BC00EA4401 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		82559E5C255300FE00EA4401 /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		82559E6825533EAD00EA4401 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		82559E7125533F2C00EA4401 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		82559E8C2553416700EA4401 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		8265FF59255239BB00FBC73A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		827401EA2561F3A9009505CA /* AdminHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeVC.swift; sourceTree = "<group>"; };
+		827401EE2561F401009505CA /* AdminProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProductsVC.swift; sourceTree = "<group>"; };
+		827401F22561F431009505CA /* AddEditCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCategoryVC.swift; sourceTree = "<group>"; };
+		827401F62561F459009505CA /* AddEditProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditProductsVC.swift; sourceTree = "<group>"; };
+		82924862254F3EEE00A448A1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		82B759312564AB5800F50132 /* StripeApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeApi.swift; sourceTree = "<group>"; };
+		82B759332564AB5C00F50132 /* StripeCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeCart.swift; sourceTree = "<group>"; };
+		82CFBA09254EFAC100D95760 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		82CFBA0F254EFAE200D95760 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		82D1DCC2255ADAB000F3D6E6 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		82D1DCC9255ADAD600F3D6E6 /* ProductDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDetailVC.xib; sourceTree = "<group>"; };
+		82D1DCCE255ADB1B00F3D6E6 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		82D1DCD2255ADB6100F3D6E6 /* CartItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartItemCell.xib; sourceTree = "<group>"; };
+		82D1DCD6255ADB8200F3D6E6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		82D1DCED255ADD5300F3D6E6 /* CardItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItemCell.swift; sourceTree = "<group>"; };
+		82DD6A5F254CB3FA00C9B738 /* TheFashionist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheFashionist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD6A62254CB3FA00C9B738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82DD6A64254CB3FA00C9B738 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82DD6A66254CB3FA00C9B738 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		82DD6A69254CB3FA00C9B738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82DD6A6B254CB3FC00C9B738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82DD6A6E254CB3FC00C9B738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82DD6A70254CB3FC00C9B738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DD6A7B254CB4C000C9B738 /* TheFashionistAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheFashionistAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD6A7D254CB4C000C9B738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82DD6A7F254CB4C000C9B738 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82DD6A84254CB4C000C9B738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82DD6A89254CB4C100C9B738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82DD6A8B254CB4C100C9B738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DD6A97254CBC4300C9B738 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		82ED54C1255AF74F002066FA /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryCell.swift; path = "../../../Updated+Artable+Source+Code/Artable Source/Shared/View/CategoryCell.swift"; sourceTree = "<group>"; };
+		82FC2C09254CE74500AAD11F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82FC9525255AEACE0064DB93 /* RoundedViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		82FC9527255AEACE0064DB93 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		84CCA242CE16DFEAC6ED3242 /* Pods-TheFashionistAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheFashionistAdmin.release.xcconfig"; path = "Target Support Files/Pods-TheFashionistAdmin/Pods-TheFashionistAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		B72C75170DC52F631669AE2D /* Pods_TheFashionist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheFashionist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EA004E7334885DC49A1A2D /* Pods-TheFashionist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheFashionist.debug.xcconfig"; path = "Target Support Files/Pods-TheFashionist/Pods-TheFashionist.debug.xcconfig"; sourceTree = "<group>"; };
+		D41E12222DB9C488E13875FB /* Pods_TheFashionistAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheFashionistAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E566DB6201F5A928BEBD9FE3 /* Pods-TheFashionist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheFashionist.release.xcconfig"; path = "Target Support Files/Pods-TheFashionist/Pods-TheFashionist.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82DD6A5C254CB3FA00C9B738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B759552564B21500F50132 /* Pods_TheFashionistAdmin.framework in Frameworks */,
+				3B163D242051F92FF84DA615 /* Pods_TheFashionist.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD6A78254CB4C000C9B738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D67711CDE53F3F87A820268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72C75170DC52F631669AE2D /* Pods_TheFashionist.framework */,
+				D41E12222DB9C488E13875FB /* Pods_TheFashionistAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		594E95EAA7738DE65544CDDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5EA004E7334885DC49A1A2D /* Pods-TheFashionist.debug.xcconfig */,
+				E566DB6201F5A928BEBD9FE3 /* Pods-TheFashionist.release.xcconfig */,
+				81F341D31C32DBB89F33B68F /* Pods-TheFashionistAdmin.debug.xcconfig */,
+				84CCA242CE16DFEAC6ED3242 /* Pods-TheFashionistAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8251309E255631D80094B6E5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8251309F255631F90094B6E5 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		82531C4B2550CDEC00834BC1 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				82531C552550CE4900834BC1 /* ForgotPasswordVC.swift */,
+				82531C562550CE4900834BC1 /* ForgotPasswordVC.xib */,
+				82D1DCC2255ADAB000F3D6E6 /* ProductDetailVC.swift */,
+				82D1DCC9255ADAD600F3D6E6 /* ProductDetailVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		82559E542552FDCE00EA4401 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				82559E5C255300FE00EA4401 /* CategoryCell.xib */,
+				82559E8C2553416700EA4401 /* ProductCell.xib */,
+				82D1DCD2255ADB6100F3D6E6 /* CartItemCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		82924859254F2DC900A448A1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				82531C5D2550DB1200834BC1 /* Firebase+Utilities.swift */,
+				82559E55255300BC00EA4401 /* Extensions.swift */,
+				82924862254F3EEE00A448A1 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		82924866254F44A600A448A1 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				82FC9527255AEACE0064DB93 /* ProductCell.swift */,
+				82FC9525255AEACE0064DB93 /* RoundedViews.swift */,
+				82D1DCED255ADD5300F3D6E6 /* CardItemCell.swift */,
+				82ED54C1255AF74F002066FA /* CategoryCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		82B7594F2564ACEE00F50132 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				827401EA2561F3A9009505CA /* AdminHomeVC.swift */,
+				827401EE2561F401009505CA /* AdminProductsVC.swift */,
+				827401F22561F431009505CA /* AddEditCategoryVC.swift */,
+				827401F62561F459009505CA /* AddEditProductsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82B759522564B1A600F50132 /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				82B759312564AB5800F50132 /* StripeApi.swift */,
+				82B759332564AB5C00F50132 /* StripeCart.swift */,
+			);
+			path = Stripe;
+			sourceTree = "<group>";
+		};
+		82CFBA05254EFA3800D95760 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82CFBA09254EFAC100D95760 /* LoginViewController.swift */,
+				82CFBA0F254EFAE200D95760 /* RegisterViewController.swift */,
+				82DD6A66254CB3FA00C9B738 /* HomeVC.swift */,
+				82559E6825533EAD00EA4401 /* ProductsViewController.swift */,
+				82D1DCCE255ADB1B00F3D6E6 /* CheckoutViewController.swift */,
+				82DD6A62254CB3FA00C9B738 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82CFBA07254EFA4E00D95760 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8265FF59255239BB00FBC73A /* Category.swift */,
+				82559E7125533F2C00EA4401 /* Product.swift */,
+				82D1DCD6255ADB8200F3D6E6 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82CFBA08254EFA6200D95760 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				82DD6A97254CBC4300C9B738 /* LoginStoryboard.storyboard */,
+				82DD6A68254CB3FA00C9B738 /* Main.storyboard */,
+				82DD6A6D254CB3FC00C9B738 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		82DD6A56254CB3FA00C9B738 = {
+			isa = PBXGroup;
+			children = (
+				82DD6A93254CB53800C9B738 /* Shared */,
+				82DD6A61254CB3FA00C9B738 /* TheFashionist */,
+				82DD6A7C254CB4C000C9B738 /* TheFashionistAdmin */,
+				82DD6A60254CB3FA00C9B738 /* Products */,
+				594E95EAA7738DE65544CDDF /* Pods */,
+				0D67711CDE53F3F87A820268 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82DD6A60254CB3FA00C9B738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DD6A5F254CB3FA00C9B738 /* TheFashionist.app */,
+				82DD6A7B254CB4C000C9B738 /* TheFashionistAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82DD6A61254CB3FA00C9B738 /* TheFashionist */ = {
+			isa = PBXGroup;
+			children = (
+				82B759522564B1A600F50132 /* Stripe */,
+				8251309E255631D80094B6E5 /* Services */,
+				82531C4B2550CDEC00834BC1 /* XIBs */,
+				82CFBA05254EFA3800D95760 /* Controller */,
+				82CFBA08254EFA6200D95760 /* Storyboards */,
+				82DD6A64254CB3FA00C9B738 /* SceneDelegate.swift */,
+				82DD6A70254CB3FC00C9B738 /* Info.plist */,
+				82FC2C09254CE74500AAD11F /* GoogleService-Info.plist */,
+			);
+			path = TheFashionist;
+			sourceTree = "<group>";
+		};
+		82DD6A7C254CB4C000C9B738 /* TheFashionistAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				82B7594F2564ACEE00F50132 /* Controller */,
+				82DD6A7D254CB4C000C9B738 /* AppDelegate.swift */,
+				82DD6A7F254CB4C000C9B738 /* SceneDelegate.swift */,
+				82DD6A83254CB4C000C9B738 /* Main.storyboard */,
+				82DD6A88254CB4C100C9B738 /* LaunchScreen.storyboard */,
+				82DD6A8B254CB4C100C9B738 /* Info.plist */,
+			);
+			path = TheFashionistAdmin;
+			sourceTree = "<group>";
+		};
+		82DD6A93254CB53800C9B738 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				82559E542552FDCE00EA4401 /* Xibs */,
+				82CFBA07254EFA4E00D95760 /* Model */,
+				82924866254F44A600A448A1 /* CustomViews */,
+				82924859254F2DC900A448A1 /* Utilities */,
+				82DD6A6B254CB3FC00C9B738 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82DD6A5E254CB3FA00C9B738 /* TheFashionist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD6A73254CB3FC00C9B738 /* Build configuration list for PBXNativeTarget "TheFashionist" */;
+			buildPhases = (
+				FD67EC98B20FBE76B602F328 /* [CP] Check Pods Manifest.lock */,
+				82DD6A5B254CB3FA00C9B738 /* Sources */,
+				82DD6A5C254CB3FA00C9B738 /* Frameworks */,
+				82DD6A5D254CB3FA00C9B738 /* Resources */,
+				8279CDAA2562EED9005F5826 /* Embed Frameworks */,
+				3A8CE6C3E919BBEDAE7793EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheFashionist;
+			productName = Fashionish;
+			productReference = 82DD6A5F254CB3FA00C9B738 /* TheFashionist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82DD6A7A254CB4C000C9B738 /* TheFashionistAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD6A8C254CB4C100C9B738 /* Build configuration list for PBXNativeTarget "TheFashionistAdmin" */;
+			buildPhases = (
+				2ED9D541AF18D4A7EFFB80B5 /* [CP] Check Pods Manifest.lock */,
+				82DD6A77254CB4C000C9B738 /* Sources */,
+				82DD6A78254CB4C000C9B738 /* Frameworks */,
+				82DD6A79254CB4C000C9B738 /* Resources */,
+				8279CDA62562EEC8005F5826 /* Embed Frameworks */,
+				06E128D0691126DC670DE2F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheFashionistAdmin;
+			productName = FashinishAdmin;
+			productReference = 82DD6A7B254CB4C000C9B738 /* TheFashionistAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DD6A57254CB3FA00C9B738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					82DD6A5E254CB3FA00C9B738 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					82DD6A7A254CB4C000C9B738 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 82DD6A5A254CB3FA00C9B738 /* Build configuration list for PBXProject "TheFashionist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82DD6A56254CB3FA00C9B738;
+			productRefGroup = 82DD6A60254CB3FA00C9B738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82DD6A5E254CB3FA00C9B738 /* TheFashionist */,
+				82DD6A7A254CB4C000C9B738 /* TheFashionistAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82DD6A5D254CB3FA00C9B738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD6A6F254CB3FC00C9B738 /* LaunchScreen.storyboard in Resources */,
+				82559E8D2553416700EA4401 /* ProductCell.xib in Resources */,
+				82559E5D255300FE00EA4401 /* CategoryCell.xib in Resources */,
+				82DD6A6C254CB3FC00C9B738 /* Assets.xcassets in Resources */,
+				82FC2C0A254CE74500AAD11F /* GoogleService-Info.plist in Resources */,
+				82DD6A6A254CB3FA00C9B738 /* Main.storyboard in Resources */,
+				82D1DCCA255ADAD600F3D6E6 /* ProductDetailVC.xib in Resources */,
+				82531C592550CE4900834BC1 /* ForgotPasswordVC.xib in Resources */,
+				82D1DCD3255ADB6100F3D6E6 /* CartItemCell.xib in Resources */,
+				82DD6A98254CBC4300C9B738 /* LoginStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD6A79254CB4C000C9B738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD6A8A254CB4C100C9B738 /* LaunchScreen.storyboard in Resources */,
+				82D1DCCB255ADAD600F3D6E6 /* ProductDetailVC.xib in Resources */,
+				82559E5E255300FE00EA4401 /* CategoryCell.xib in Resources */,
+				82559E8E2553416700EA4401 /* ProductCell.xib in Resources */,
+				82DD6A94254CB56B00C9B738 /* Assets.xcassets in Resources */,
+				82DD6A85254CB4C000C9B738 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E128D0691126DC670DE2F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheFashionistAdmin/Pods-TheFashionistAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheFashionistAdmin/Pods-TheFashionistAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheFashionistAdmin/Pods-TheFashionistAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ED9D541AF18D4A7EFFB80B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheFashionistAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A8CE6C3E919BBEDAE7793EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheFashionist/Pods-TheFashionist-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheFashionist/Pods-TheFashionist-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheFashionist/Pods-TheFashionist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD67EC98B20FBE76B602F328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheFashionist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82DD6A5B254CB3FA00C9B738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D1DCC3255ADAB000F3D6E6 /* ProductDetailVC.swift in Sources */,
+				82CFBA0A254EFAC100D95760 /* LoginViewController.swift in Sources */,
+				82531C5E2550DB1200834BC1 /* Firebase+Utilities.swift in Sources */,
+				82B759322564AB5800F50132 /* StripeApi.swift in Sources */,
+				82CFBA10254EFAE200D95760 /* RegisterViewController.swift in Sources */,
+				82559E6925533EAD00EA4401 /* ProductsViewController.swift in Sources */,
+				82DD6A67254CB3FA00C9B738 /* HomeVC.swift in Sources */,
+				82531C572550CE4900834BC1 /* ForgotPasswordVC.swift in Sources */,
+				82924863254F3EEE00A448A1 /* Constants.swift in Sources */,
+				82FC952C255AEACE0064DB93 /* ProductCell.swift in Sources */,
+				82559E56255300BC00EA4401 /* Extensions.swift in Sources */,
+				82DD6A63254CB3FA00C9B738 /* AppDelegate.swift in Sources */,
+				82DD6A65254CB3FA00C9B738 /* SceneDelegate.swift in Sources */,
+				82FC9528255AEACE0064DB93 /* RoundedViews.swift in Sources */,
+				8265FF5A255239BB00FBC73A /* Category.swift in Sources */,
+				825130A0255631F90094B6E5 /* UserService.swift in Sources */,
+				82D1DCCF255ADB1B00F3D6E6 /* CheckoutViewController.swift in Sources */,
+				82D1DCEE255ADD5300F3D6E6 /* CardItemCell.swift in Sources */,
+				82B759342564AB5C00F50132 /* StripeCart.swift in Sources */,
+				82559E7225533F2C00EA4401 /* Product.swift in Sources */,
+				82D1DCD7255ADB8200F3D6E6 /* User.swift in Sources */,
+				82ED54C2255AF74F002066FA /* CategoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD6A77254CB4C000C9B738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827401FA2561F958009505CA /* Constants.swift in Sources */,
+				82531C662550EBB200834BC1 /* Firebase+Utilities.swift in Sources */,
+				82FC9530255AEAE60064DB93 /* CardItemCell.swift in Sources */,
+				82DD6A7E254CB4C000C9B738 /* AppDelegate.swift in Sources */,
+				82559E57255300BC00EA4401 /* Extensions.swift in Sources */,
+				82D1DCD8255ADB8200F3D6E6 /* User.swift in Sources */,
+				827401F72561F459009505CA /* AddEditProductsVC.swift in Sources */,
+				827401EF2561F401009505CA /* AdminProductsVC.swift in Sources */,
+				8279CD412562EA73005F5826 /* HomeVC.swift in Sources */,
+				827401F32561F431009505CA /* AddEditCategoryVC.swift in Sources */,
+				82DD6A80254CB4C000C9B738 /* SceneDelegate.swift in Sources */,
+				82559E6C25533ED200EA4401 /* ProductsViewController.swift in Sources */,
+				827401FD2561FA84009505CA /* RoundedViews.swift in Sources */,
+				82559E7325533F2C00EA4401 /* Product.swift in Sources */,
+				827402002561FAB9009505CA /* UserService.swift in Sources */,
+				827401EB2561F3A9009505CA /* AdminHomeVC.swift in Sources */,
+				82FC952D255AEACE0064DB93 /* ProductCell.swift in Sources */,
+				82531C582550CE4900834BC1 /* ForgotPasswordVC.swift in Sources */,
+				82B759532564B1DA00F50132 /* StripeCart.swift in Sources */,
+				82D1DCC4255ADAB000F3D6E6 /* ProductDetailVC.swift in Sources */,
+				8265FF5B255239BB00FBC73A /* Category.swift in Sources */,
+				82ED54C3255AF74F002066FA /* CategoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82DD6A68254CB3FA00C9B738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DD6A69254CB3FA00C9B738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82DD6A6D254CB3FC00C9B738 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DD6A6E254CB3FC00C9B738 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		82DD6A83254CB4C000C9B738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DD6A84254CB4C000C9B738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82DD6A88254CB4C100C9B738 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DD6A89254CB4C100C9B738 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82DD6A71254CB3FC00C9B738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82DD6A72254CB3FC00C9B738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82DD6A74254CB3FC00C9B738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5EA004E7334885DC49A1A2D /* Pods-TheFashionist.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TheFashionist/TheFashionist.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4VLX9X6RM;
+				INFOPLIST_FILE = "$(SRCROOT)/TheFashionist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ozgur.TheFashionist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82DD6A75254CB3FC00C9B738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E566DB6201F5A928BEBD9FE3 /* Pods-TheFashionist.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TheFashionist/TheFashionist.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4VLX9X6RM;
+				INFOPLIST_FILE = "$(SRCROOT)/TheFashionist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ozgur.TheFashionist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82DD6A8D254CB4C100C9B738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F341D31C32DBB89F33B68F /* Pods-TheFashionistAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4VLX9X6RM;
+				INFOPLIST_FILE = "$(SRCROOT)/TheFashionistAdmin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ozgur.TheFashionistAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82DD6A8E254CB4C100C9B738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CCA242CE16DFEAC6ED3242 /* Pods-TheFashionistAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4VLX9X6RM;
+				INFOPLIST_FILE = "$(SRCROOT)/TheFashionistAdmin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ozgur.TheFashionistAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DD6A5A254CB3FA00C9B738 /* Build configuration list for PBXProject "TheFashionist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD6A71254CB3FC00C9B738 /* Debug */,
+				82DD6A72254CB3FC00C9B738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD6A73254CB3FC00C9B738 /* Build configuration list for PBXNativeTarget "TheFashionist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD6A74254CB3FC00C9B738 /* Debug */,
+				82DD6A75254CB3FC00C9B738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD6A8C254CB4C100C9B738 /* Build configuration list for PBXNativeTarget "TheFashionistAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD6A8D254CB4C100C9B738 /* Debug */,
+				82DD6A8E254CB4C100C9B738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82DD6A57254CB3FA00C9B738 /* Project object */;
+}
